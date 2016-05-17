@@ -22,7 +22,6 @@ namespace DataStructures
         {
             var input = "]";
             var result = paranthesisEvaluator.CheckBalanceParanthesis(input) ? "Yes, balanced expression" : "No, not a balanced expression";
-
             Console.WriteLine(result);
         }
     }
